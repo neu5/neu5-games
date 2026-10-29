@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: neu5-games
+    runtime: static
+    staticPublishPath: .
