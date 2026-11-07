@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>neu5 games</title>
   <meta name="description" content="Small, free games made for fun by a programmer and AI.">
-  <link rel="icon" href="img/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="/img/icon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <header class="top">
-    <a class="logo" href="#" aria-label="neu5 games">
+    <a class="logo" href="/" aria-label="neu5 games">
       <span class="logo-mark">5</span>
       <span class="logo-text">neu5 <b>games</b></span>
     </a>
@@ -35,49 +35,49 @@
       <h2 data-i18n="games.title">Games</h2>
 
       <article class="card featured">
-        <a class="art" href="https://pollen-fairy.onrender.com" tabindex="-1" aria-hidden="true">
-          <img src="img/fairy.jpg" alt="" width="1280" height="800">
+        <a class="art" href="/game/helpful-fairy/" tabindex="-1" aria-hidden="true">
+          <img src="/img/fairy.jpg" alt="" width="1280" height="800">
         </a>
         <div class="body">
           <span class="chip live" data-i18n="st.live">Play now</span>
-          <h3 data-i18n="fairy.title">Helpful Fairy</h3>
+          <h3><a href="/game/helpful-fairy/" data-i18n="fairy.title">Helpful Fairy</a></h3>
           <p class="meta" data-i18n="fairy.meta">For kids 5–8 · English, Polish, French</p>
           <p data-i18n="fairy.text">A calm platformer about helping others. Fly, collect pollen, set clocks, count stars and help 50 forest friends. No ads, no reading needed.</p>
-          <a class="btn primary" href="https://pollen-fairy.onrender.com" data-i18n="btn.play">Play</a>
+          <a class="btn primary" href="https://pollen-fairy.onrender.com" data-play="helpful-fairy" data-i18n="btn.play">Play</a>
         </div>
       </article>
 
       <div class="grid">
         <article class="card">
-          <div class="art"><img src="img/racing.svg" alt="" width="320" height="200"></div>
+          <a class="art" href="/game/tiny-laps/" tabindex="-1" aria-hidden="true"><img src="/img/tiny-laps.jpg" alt="" width="490" height="306"></a>
+          <div class="body">
+            <span class="chip live" data-i18n="st.live">Play now</span>
+            <h3><a href="/game/tiny-laps/" data-i18n="laps.title">Tiny Laps</a></h3>
+            <p class="meta" data-i18n="laps.meta">3D racing · 1–8 players</p>
+            <p data-i18n="laps.text">Small 3D racing seen from above. Ten tracks, AI drivers, pit stops, online rooms and a track editor.</p>
+            <a class="btn primary" href="https://grass-and-grip-x9tk.onrender.com" data-play="tiny-laps" data-i18n="btn.play">Play</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <a class="art" href="/game/snails/" tabindex="-1" aria-hidden="true"><img src="/img/snails.jpg" alt="" width="616" height="385"></a>
           <div class="body">
             <span class="chip wip" data-i18n="st.wip">In progress</span>
-            <h3 data-i18n="race.title">Racing game</h3>
-            <p class="meta" data-i18n="race.meta">Inspired by GeneRally · no name yet</p>
-            <p data-i18n="race.text">Small 3D racing seen from above. Many tracks, AI drivers, pit stops, and a track editor.</p>
+            <h3><a href="/game/snails/" data-i18n="snails.title">Snails</a></h3>
+            <p class="meta" data-i18n="snails.meta">Turn-based artillery · two teams</p>
+            <p data-i18n="snails.text">Two teams of snails take turns on a crumbly island. Check the wind, aim, boom!</p>
             <span class="btn off" data-i18n="btn.soon">Coming soon</span>
           </div>
         </article>
 
         <article class="card">
-          <div class="art"><img src="img/snails.svg" alt="" width="320" height="200"></div>
+          <a class="art" href="/game/realm-war/" tabindex="-1" aria-hidden="true"><img src="/img/realm-war.svg" alt="" width="1280" height="800"><span class="art-note" data-i18n="art.concept">Concept art</span></a>
           <div class="body">
             <span class="chip idea" data-i18n="st.idea">Planned</span>
-            <h3 data-i18n="snails.title">Snails</h3>
-            <p class="meta" data-i18n="snails.meta">Inspired by Worms</p>
-            <p data-i18n="snails.text">Two teams of snails take turns on a crumbly island. Check the wind, aim, boom!</p>
-            <span class="btn off" data-i18n="btn.later">Later</span>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="art"><img src="img/nations.svg" alt="" width="320" height="200"></div>
-          <div class="body">
-            <span class="chip idea" data-i18n="st.idea">Planned</span>
-            <h3 data-i18n="erep.title">Nation game</h3>
-            <p class="meta" data-i18n="erep.meta">Inspired by eRepublik · no name yet</p>
-            <p data-i18n="erep.text">An online world of players. Work, trade, vote, and build a country together.</p>
-            <span class="btn off" data-i18n="btn.later">Later</span>
+            <h3><a href="/game/realm-war/" data-i18n="realm.title">Realm War</a></h3>
+            <p class="meta" data-i18n="realm.meta">Online fantasy world · working title</p>
+            <p data-i18n="realm.text">Humans, elves, dwarves and orcs work, trade, elect a president and go to war in one shared world.</p>
+            <span class="btn off" data-i18n="btn.soon">Coming soon</span>
           </div>
         </article>
       </div>
@@ -94,9 +94,10 @@
   <footer class="foot">
     <span>© <span id="year">2026</span> neu5 games</span>
     <span data-i18n="foot.made">Made with code, AI and coffee.</span>
+    <span data-i18n="foot.privacy">No cookies, no personal data, only anonymous stats.</span>
     <a href="https://github.com/neu5">GitHub</a>
   </footer>
 
-  <script src="main.js"></script>
+  <script src="/main.js"></script>
 </body>
 </html>
